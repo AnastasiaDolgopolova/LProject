@@ -147,7 +147,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,7 +197,8 @@
       <workItem from="1584090372920" duration="2935000" />
       <workItem from="1584178778358" duration="10446000" />
       <workItem from="1584737516283" duration="4582000" />
-      <workItem from="1585592023457" duration="4908000" />
+      <workItem from="1585592023457" duration="5491000" />
+      <workItem from="1585850893170" duration="6697000" />
     </task>
     <task id="LOCAL-00001" summary="CategoryModel">
       <created>1583753738778</created>

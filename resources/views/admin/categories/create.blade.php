@@ -17,14 +17,29 @@
 
         <!-- Default box -->
         <div class="box">
+            {!! Form::open(array('route' => 'categories.store')) !!}
             <div class="box-header with-border">
                 <h3 class="box-title">Добавляем категорию</h3>
+                @if($errors->any())
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach($errors->all() as $error)
+                                        <li>{{$error}}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+               {{--{{dd($errors->any())}}--}}
+                    @endif
             </div>
             <div class="box-body">
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Название</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="" name="title">
                     </div>
                 </div>
             </div>
@@ -34,6 +49,7 @@
                 <button class="btn btn-success pull-right">Добавить</button>
             </div>
             <!-- /.box-footer-->
+            {!! Form::close() !!}
         </div>
         <!-- /.box -->
 

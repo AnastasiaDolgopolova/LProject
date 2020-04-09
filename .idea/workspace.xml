@@ -43,7 +43,8 @@
     <favorites_list name="LProject" />
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="C:\Program Files\Git\cmd\git.exe" />
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -198,7 +199,8 @@
       <workItem from="1584178778358" duration="10446000" />
       <workItem from="1584737516283" duration="4582000" />
       <workItem from="1585592023457" duration="5491000" />
-      <workItem from="1585850893170" duration="6697000" />
+      <workItem from="1585850893170" duration="7125000" />
+      <workItem from="1586090463625" duration="11641000" />
     </task>
     <task id="LOCAL-00001" summary="CategoryModel">
       <created>1583753738778</created>
